@@ -586,6 +586,8 @@
                 link.setAttribute('href', encodedUri);
                 link.setAttribute('download', name + extension);
                 document.body.appendChild(link);
+                console.log(link);
+                alert('download');
                 link.click();
             },
             getBookType: function (key) {
